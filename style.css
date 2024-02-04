@@ -81,7 +81,37 @@ span{
     border: 1px solid #f2f2f2;
     border-radius: 15px;
 }
+.institution-items-container{
+    display: flex;
+}
+.institution-items{
 
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.institution-image{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    padding: 1rem;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    box-shadow: rgba(196,196, 196/30%) 0px 5px 15px;
+
+}
+.institution-image:hover{
+    background-color: #f2f2f2;
+}
+.institution-name,.degree-name{
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+}
 
 
 
