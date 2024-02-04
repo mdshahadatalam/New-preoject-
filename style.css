@@ -112,6 +112,16 @@ span{
     font-size: 15px;
     line-height: 22px;
 }
+.experiences-container{
+    padding: 1rem;
+}
+.experiences-item{
+    padding-top: 10px;
+}
+li{
+    list-style: square;
+    margin: 0.8rem 0;
+}
 
 
 
