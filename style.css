@@ -141,6 +141,41 @@ li{
 li{
     text-transform: capitalize;
 }
+#course-table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2rem 0;
+    cursor: pointer;
+}
+#course-table td, #course-table th{
+    border: 1px solid #ddd;
+    padding:8px ;
+    text-align: center;
+    text-transform:capitalize ;
+
+}
+#course-table th{
+    background-color: #f56565;
+    color: #102940;
+    padding: 12px;
+    
+}
+#course-table tbody:nth-child(even){
+    background-color: #5885af;
+    font-weight: 700;
+    color: black;
+
+}
+#course-table tr:hover{
+    background-color: #274472;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
 
 
 
